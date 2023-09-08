@@ -63,7 +63,7 @@ public class Codigo4 {
 	    
 	    if( !errorFlag ) { //Si hubo ganador debido a que las opciones eran válidas
 	    	  System.out.println("Gana el jugador " + g);
-	      }else {
+	      }else { //Si los datos ingresados no son válidos
 	    	  System.out.println("Datos no válidos, ingrese alguna de las opciones: piedra ,  papel , tijera");
 	      }
 	      
